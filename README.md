@@ -1,6 +1,6 @@
-Mô tả về XrayR zfVPN
+Mô tả về XrayR FAST4G
 
-XrayR zfVPN Hỗ trợ Nhiều Panel khác nhau ( V2board , ProxyPanel, sspanel, Pmpanel ...)
+XrayR FAST4G Hỗ trợ Nhiều Panel khác nhau ( V2board , ProxyPanel, sspanel, Pmpanel ...)
 
 Một khung công tác back-end dựa trên Xray, hỗ trợ các giao thức V2ay, Trojan, Shadowsocks, cực kỳ dễ dàng mở rộng và hỗ trợ kết nối nhiều bảng điều khiển。
 
