@@ -16,9 +16,9 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://zingfast.vn"
-      ApiKey: "htpshwpaecnlllsmadl"
-      NodeID: 355
+      ApiHost: "https://fast4g.net"
+      ApiKey: "adminhoang9810a@fast4g.net"
+      NodeID: 
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
@@ -46,8 +46,8 @@ Nodes:
           Dest: 80 # Required, Destination of fallback, check https://xtls.github.io/config/features/fallback.html for details.
           ProxyProtocolVer: 0 # Send PROXY protocol version, 0 for dsable
       CertConfig:
-        CertMode: dns # Option about how to get certificate: none, file, http, dns. Choose \"none\" will forcedly disable the tls config.
-        CertDomain: "node1.test.com" # Domain to cert
+        CertMode: http # Option about how to get certificate: none, file, http, dns. Choose \"none\" will forcedly disable the tls config.
+        CertDomain: ".fast4g.net" # Domain to cert
         CertFile: /etc/XrayR/example.crt # Provided if the CertMode is file
         KeyFile: /etc/XrayR/example.key
         Provider: cloudflare # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
@@ -59,9 +59,9 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, Proxypanel
     ApiConfig:
-      ApiHost: "https://zingfast.vn"
-      ApiKey: "htpshwpaecnlllsmadl"
-      NodeID: 19
+      ApiHost: "https://fast4g.net"
+      ApiKey: "adminhoang9810a@fast4g.net"
+      NodeID: 
       NodeType: Trojan # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
@@ -91,8 +91,8 @@ Nodes:
       CertConfig:
         CertMode: file # Option about how to get certificate: none, file, http, dns. Choose \"none\" will forcedly disable the tls config.
         CertDomain: "cmc6.zinfast.vn" # Domain to cert
-        CertFile: /etc/XrayR/zingfast.cert # Provided if the CertMode is file
-        KeyFile: /etc/XrayR/zingfast.key
+        CertFile: /etc/XrayR/fast4g.cert # Provided if the CertMode is file
+        KeyFile: /etc/XrayR/fas4g.key
         Provider: cloudflare # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
         Email: test@me.com
         DNSEnv: # DNS ENV option used by DNS provider
