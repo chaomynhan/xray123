@@ -15,5 +15,5 @@ Dự án này chỉ mang tính chất học tập, phát triển và bảo trì 
 
 Cài đặt phần mềm - release
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/khuuvandoan/zfvpn/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/chaomynhan/xray123/main/install.sh)
 ```
